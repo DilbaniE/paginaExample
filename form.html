@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="../../form-result.php" target="_blank">
+            <fieldset>
+              <legend>Mensaje</legend>
+              <p><label>Tu nombre: <input type="text" name="nombre"></label></p>
+              <p><label>Tu dirección de correo: <input type="text" name="correo"></label></p>
+              <p>
+                <label>
+                  Tu mensaje:<br>
+                  <textarea name="mensaje"></textarea>
+                </label>
+              </p>
+            </fieldset>
+            <fieldset>
+              <legend>Nuevos temas</legend>
+              <p>
+                ¿Qué temas te gustaría que trate más en mi sitio?<br>
+                <label><input type="checkbox" name="html"> HTML</label>
+                <label><input type="checkbox" name="graficos"> Gráficos</label>
+                <label><input type="checkbox" name="videojuegos"> Videojuegos</label>
+                <label><input type="checkbox" name="arte"> Arte</label>
+                <label><input type="checkbox" name="musica"> Música</label>
+              </p>
+            </fieldset>
+            <p>
+              <input type="submit" value="Enviar mensaje">
+              <input type="reset" value="Comenzar de nuevo">
+            </p>
+          </form>
+    </main>
+</body>
+</html>
